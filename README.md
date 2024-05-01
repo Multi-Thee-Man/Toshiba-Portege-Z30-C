@@ -44,6 +44,9 @@ Shutdown / Reboot   |  ✅
 - Keyboard Backlight
 - FN Shortcuts need to be remapped(will fix)
 - Headphone Jack distortion because its using a basic ALC id layout(id_layout 3)
+# Notes
+- you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID and ROM.
+- I'll be releasing new updates from time to time to fix patches and new efi folders for newer OS (big sur and later)
 ## Credits
  - [Dortania](https://dortania.github.io) for developing OpenCore.
  - [Apple](https://www.apple.com) for macOS.
