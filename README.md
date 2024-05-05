@@ -42,7 +42,7 @@ Shutdown / Reboot   |  ✅
 # Bugs
 - Touchpad guestures are misbehaving but its most likely because its small.
 - Keyboard Backlight
-- FN Shortcuts need to be remapped(will fix)
+- FN Shortcuts need to be remapped(might fix)
 - Headphone Jack distortion because its using a basic ALC id layout(id_layout 3)
 # Notes
 - you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID and ROM.
