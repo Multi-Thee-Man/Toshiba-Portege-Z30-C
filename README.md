@@ -47,6 +47,8 @@ Shutdown / Reboot   |  ✅
 # Notes
 - you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID and ROM.
 - I'll be releasing new updates from time to time to fix patches and new efi folders for newer OS (big sur and later)
+#Notice board
+- currently working on a Sonoma EFI. I just downloaded the latest macOS version. unfortunately it doesn't support our i5 6th gen processor but hopefully this week, I will release a beta version of it then later on release a stable version.
 ## Credits
  - [Dortania](https://dortania.github.io) for developing OpenCore.
  - [Apple](https://www.apple.com) for macOS.
