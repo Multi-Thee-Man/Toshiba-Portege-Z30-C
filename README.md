@@ -14,6 +14,7 @@ Touchpad | ALPS PS/2 Pointing Device | ✅
 Display | ?? | ✅
 Camera | Toshiba Webcam | ✅
 # macOS Compatibility 
+- ✅ macOS Sonoma 14.4
 - ✅ macOS Catalina 10.15.7
 - ✅ macOS Mojave 10.14.6
 - ✅ macOS High Sierra 10.13.6
@@ -44,8 +45,10 @@ Shutdown / Reboot   |  ✅
 - Keyboard Backlight
 - FN Shortcuts need to be remapped(might fix)
 - Headphone Jack distortion because its using a basic ALC id layout(id_layout 3)
+- on the Sonoma specific EFI, Bluetooth isn't working unfortunately. each time I would enable the intel Bluetooth kexts, it wouldn't boot up.
+- the graphics kinda act choppy on the dynamic wallpaper on the lock screen and home screen.
 # Notes
-- you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID and ROM.
+- you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID,ROM and SMBios.
 - I'll be releasing new updates from time to time to fix patches and new efi folders for newer OS (big sur and later)
 # Notice board
 - currently working on a Sonoma EFI. I just downloaded the latest macOS version. unfortunately it doesn't support our i5 6th gen processor. as at now it's bootable, usable and stable enough for me to release it but I'll stop working on it. unofficial macOS versions are hard to work on so I'll specifically make this EFI work only on Sonoma (14.4+)
