@@ -47,8 +47,9 @@ Shutdown / Reboot   |  ✅
 # Notes
 - you'll need to configure the smbios and generate your own system serial number, MLB, systemUUID and ROM.
 - I'll be releasing new updates from time to time to fix patches and new efi folders for newer OS (big sur and later)
-#Notice board
-- currently working on a Sonoma EFI. I just downloaded the latest macOS version. unfortunately it doesn't support our i5 6th gen processor but hopefully this week, I will release a beta version of it then later on release a stable version.
+# Notice board
+- currently working on a Sonoma EFI. I just downloaded the latest macOS version. unfortunately it doesn't support our i5 6th gen processor. as at now it's bootable, usable and stable enough for me to release it but I'll stop working on it. unofficial macOS versions are hard to work on so I'll specifically make this EFI work only on Sonoma (14.4+)
+- I will create the an EFI of the last official macOS version that supports the MacBook 13,2(6th gen) later on.
 - you can use this EFI on any other laptop of the same Intel CPU generation. you'll have to adjust the kexts and configuration according to your specifications and type of motherboard. otherwise I'm definitely sure it will boot up, I tried on my brother's Lenovo yoga 260.
 ## Credits
  - [Dortania](https://dortania.github.io) for developing OpenCore.
